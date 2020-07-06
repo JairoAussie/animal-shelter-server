@@ -1,0 +1,19 @@
+{
+  "name": "animal-shelter-server",
+  "version": "1.0.0",
+  "description": "This is a server for an animal shelter app. Built with express and mongo",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jairo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4"
+  }
+}
